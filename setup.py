@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mongodb",
+    name="mongodb-uri-repo",  # This is the PyPI/distribution name
     version="1.0.0",
-    description="Mongodb",
-    packages=find_packages(),
-    install_requires=[],  # No dependencies needed
+    description="MongoDB URI Repository",
+    packages=['mongodb'],  # Explicitly specify your package name
+    install_requires=[],
     python_requires=">=3.6",
 )
