@@ -1,19 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mongodb",
+    name="mongodb-uri-repo",
     version="1.0.0",
-    description="A repository of MongoDB connection URIs",
-    long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
-    author="KEX001",
-    url="https://github.com/KEX001/mongodb",
+    description="MongoDB URI Repository",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[],  # No dependencies needed
     python_requires=">=3.6",
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
 )
