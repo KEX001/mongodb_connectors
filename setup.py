@@ -1,10 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mongodb-uri-repo",  # This is the PyPI/distribution name
+    name="mongodb-connectors",
     version="1.0.0",
-    description="MongoDB URI Repository",
-    packages=['mongodb'],  # Explicitly specify your package name
-    install_requires=[],
-    python_requires=">=3.6",
+    description="MongoDB Connection URI Manager",
+    packages=find_packages(),
+    install_requires=['pymongo>=4.0'],
+    python_requires=">=3.8",
+    author="KEX",
+    author_email="--",
+    url="https://github.com/KEX001/mongodb-connectors",
 )
